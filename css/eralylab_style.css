@@ -1,0 +1,140 @@
+/* styles */
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header 
+{
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 10px 0 10px;
+}
+
+main
+{
+    width: 100vw;
+    text-align: center;
+}
+
+section
+{
+    width: 90%; /* 90% width of the parent (main) */
+    margin: 0 auto; /* Automatically centers the element horizontally */
+    background-color: lightblue; /* Optional: For visualization */
+    padding: 20px; /* Optional: Adds some inner spacing */
+    box-sizing: border-box; /* Ensures padding is included in width */
+
+    /* set the columns */
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Aligns columns at the top */
+    gap: 20px; /* Adds space between columns */
+}
+
+footer 
+{
+    text-align: center; /* Center-aligns inline-block elements */
+    margin: 20px 0;
+}
+
+img 
+{
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    height: auto;    /* Maintains the aspect ratio of the image */
+    display: block;  /* Prevents extra space at the bottom of the image */
+    margin: 0 auto; /* Automatically centers the element horizontally */
+}
+
+/* #id */
+#Header_COL1 /* Header_COL1 section (12% width) */
+{
+    width: 12%; /* 12% of the header width */
+    /*background-color: #eeff00;*/
+    text-align: center;
+}
+
+#Header_COL2 /* Header_COL2 section (83% width) */
+{
+    width: 83%; /* 83% of the header width */
+    /*background-color: #4CAF50;*/
+    color: white;
+    padding: 10px 10px 0 10px;
+}
+
+#Header_TITLE
+{
+    font-size: 1.5vw; /* 5% of the viewport's width */
+    text-align: center;
+}
+
+#Header_NAVIGATION
+{
+    text-align: center;
+    /*border: 1px solid #ddd;*/
+    padding: 10px 10px 0 10px;
+}
+/* id# */
+
+
+/* .class */
+.Header_COL
+{
+    display: inline-block; /* Makes the divs inline-block */    
+    box-sizing: border-box; /* Include padding in width calculation */    
+    padding: 10px;
+}
+
+.TAB 
+{
+    width: auto;
+    font-size: 2vw; /* 2% of the viewport's width */
+    font-weight: bold; /* Makes text bold */
+    display: inline-block; /* Makes the divs inline-block */
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+.Main_COL /* Main_COL section (40% width) */
+{
+    width: 40%; /* 40% of the header width */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.Main_COL1 /* Main_COL1 */
+{
+    flex: 1; /* Allows the column to adjust its size */
+    /*background-color: #eeff00;*/
+    text-align: left;    
+}
+
+.Main_COL2 /* Main_COL2 */
+{
+    /*background-color: #4CAF50;*/
+    text-align: center;
+}
+
+.Main_TITLE
+{
+    text-align: left;
+    font-size: 3vw; /* 5% of the viewport's width */
+    padding: 10px;
+    margin: 0;
+}
+
+.Section_HEADER
+{
+    font-size: 1.8vw;
+}
+
+.Section_TEXT
+{
+    font-size: 1.3vw;
+}
+/* class. */
