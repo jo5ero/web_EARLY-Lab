@@ -10,9 +10,10 @@ body
 
 header 
 {
-    background: #007BFF;
+    background: #500000;
     color: #fff;
     padding: 10px 10px 0 10px;
+    text-align: center;
 }
 
 main
@@ -25,7 +26,7 @@ section
 {
     width: 90%; /* 90% width of the parent (main) */
     margin: 0 auto; /* Automatically centers the element horizontally */
-    background-color: lightblue; /* Optional: For visualization */
+    /*background-color: lightblue; /* Optional: For visualization */
     padding: 20px; /* Optional: Adds some inner spacing */
     box-sizing: border-box; /* Ensures padding is included in width */
 
@@ -49,31 +50,44 @@ img
     margin: 0 auto; /* Automatically centers the element horizontally */
 }
 
-/* #id */
-#Header_COL1 /* Header_COL1 section (12% width) */
+a 
 {
-    width: 12%; /* 12% of the header width */
-    /*background-color: #eeff00;*/
-    text-align: center;
+    all: unset; /* Resets all styles (including inline styles) */
+    display: inline; /* Set back to default display for <a> */
+    cursor: pointer;
 }
 
-#Header_COL2 /* Header_COL2 section (83% width) */
+/* #id */
+#Header_COL1 /* Header_COL1 section */
+{   
+    display: inline-flex;
+    align-items: center; /* verical aligment for flex */
+    /*background-color: #eeff00;*/
+    text-align: left;
+}
+
+#Header_LOGO
 {
-    width: 83%; /* 83% of the header width */
+    width: 8%;
+}
+
+#Header_COL2 /* Header_COL2 section */
+{
     /*background-color: #4CAF50;*/
-    color: white;
     padding: 10px 10px 0 10px;
 }
 
 #Header_TITLE
 {
-    font-size: 1.5vw; /* 5% of the viewport's width */
-    text-align: center;
+    font-family: helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    font-size: 16px;
+    margin: 25px;
 }
 
 #Header_NAVIGATION
 {
-    text-align: center;
+    float: right;
+    /*border: 1px solid red;*/
     /*border: 1px solid #ddd;*/
     padding: 10px 10px 0 10px;
 }
@@ -83,21 +97,34 @@ img
 /* .class */
 .Header_COL
 {
+    width: 45%; /* 50% of the header width */
     display: inline-block; /* Makes the divs inline-block */    
     box-sizing: border-box; /* Include padding in width calculation */    
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .TAB 
 {
     width: auto;
-    font-size: 2vw; /* 2% of the viewport's width */
-    font-weight: bold; /* Makes text bold */
+    font-size: 0.8vw; /* 2% of the viewport's width */
+    font-weight: bold; /* Makes text bold */    
+    color: #d1d1d1;
     display: inline-block; /* Makes the divs inline-block */
-    background-color: lightcoral;
+    /*background-color: lightcoral;*/
     text-align: center;
     padding: 20px;
-    border: 1px solid #333;
+    /*border: 1px solid #333;*/
+}
+
+.TAB a 
+{
+    padding-top: 15px;
+}
+
+.TAB a:hover
+{
+    color: white;
+    border-top: 3px solid #ffffff;
 }
 
 .Main_COL /* Main_COL section (40% width) */
@@ -124,17 +151,26 @@ img
 {
     text-align: left;
     font-size: 3vw; /* 5% of the viewport's width */
-    padding: 10px;
     margin: 0;
+    padding: 10px;
+}
+
+.Main_TEXT
+{
+    text-align: left;   
+    font-size: 1.2vw;
+    padding: 10px;
 }
 
 .Section_HEADER
 {
     font-size: 1.8vw;
+    padding: 10px;
 }
 
 .Section_TEXT
 {
-    font-size: 1.3vw;
+    font-size: 0.7vw;
+    padding: 10px;
 }
 /* class. */
