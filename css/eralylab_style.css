@@ -57,11 +57,12 @@ a
     cursor: pointer;
 }
 
+
 /* #id */
 #Header_COL1 /* Header_COL1 section */
 {   
     display: inline-flex;
-    align-items: center; /* verical aligment for flex */
+    align-items: center; /* vertical aligment for flex */
     /*background-color: #eeff00;*/
     text-align: left;
 }
@@ -91,6 +92,13 @@ a
     /*border: 1px solid #ddd;*/
     padding: 10px 10px 0 10px;
 }
+
+ #Header_NAVIGATION ul
+ {
+    margin: 0;            /* Remove default margin */
+    padding: 0;           /* Remove default padding */
+    list-style: none;     /* Remove default bullets */
+ }
 /* id# */
 
 
@@ -155,6 +163,11 @@ a
     padding: 10px;
 }
 
+.Main_LABLE
+{
+   display: block;
+}
+
 .Main_TEXT
 {
     text-align: left;   
@@ -168,9 +181,114 @@ a
     padding: 10px;
 }
 
+.Section_TITLE
+{
+    font-size: 1.4vw;
+    padding: 10px;
+}
+
+.Section_LABLE
+{
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 10px;
+    margin: auto;
+}
+
+.Section_SUBLABLE
+{
+    text-align: left;
+    font-size: 1vw;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.SUBLABLE_TEXT
+{    
+    width: 60%;
+    margin: auto;
+}
+
 .Section_TEXT
 {
     font-size: 0.7vw;
     padding: 10px;
+}
+
+.Section112, .Section1UList, .Section2ColBlockBlock, .Section11U, .Section1I
+{
+    display: block;
+    text-align: left;
+}
+
+.SectionBlock
+{
+}
+
+.Section2ColBlock
+{
+    display: flex;
+    text-align: center;
+}
+
+.SectionBlockCol
+{
+    margin: auto;
+}
+
+.Section2ColTable
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.Table_COL
+{
+
+}
+
+.Table_COL1
+{
+    width: 40%;
+}
+
+.Table_COL1 img
+{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.Table_COL2
+{
+    width: 60%;
+    margin-top: 25px;
+}
+
+.Table_HEADER
+{
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.Table_SUBHEADER
+{
+    font-size: 0.8vw;
+    padding: 10px;
+}
+
+.InlineLI
+{
+    display: flex;
+    margin: 0;            /* Remove default margin */
+    padding: 0;           /* Remove default padding */
+    list-style: none;     /* Remove default bullets */
+
+}
+
+.InlineLI a
+{
+    margin: 0 5px;
 }
 /* class. */
