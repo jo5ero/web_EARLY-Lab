@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { text: 'About', href: 'earlylab_About.html' },
         { text: 'Research', href: 'earlylab_Research.html' },
         { text: 'People', href: 'earlylab_People.html' },
-        { text: 'Publications', href: '' },
-        { text: 'Resources', href: '' },
-        { text: 'Contact', href: '' }
+        { text: 'Publications', href: 'earlylab_Publications.html' },
+        { text: 'Resources', href: '""' },
+        { text: 'Contact', href: 'earlylab_Contact.html' }
     ];
 
     // Create a <ul> for the navigation list
