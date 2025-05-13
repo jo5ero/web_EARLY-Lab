@@ -1,0 +1,176 @@
+main
+{
+    width: 100vw;
+    text-align: center;
+    flex: 1; /* Main content grows to fill available space */
+}
+
+.Main_BLOCK
+{
+    display: block;
+}
+
+.Main_FLEX
+{
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Aligns boxes at the top */
+    gap: 20px; /* Adds space between boxes */
+}
+
+.Main_COL /* Main_COL section (40% width) */
+{
+    width: 40%;
+    padding: 10px;
+}
+
+.Main_COL1 /* Main_COL1 */
+{
+    flex: 1; /* Allows the column to adjust its size */
+    text-align: left;    
+}
+
+.Main_COL2 /* Main_COL2 */
+{
+    text-align: center;
+}
+
+.Main_HEADER
+{
+    width: 90%;
+    text-align: left;
+}
+
+.Main_TITLE
+{
+    font-size: clamp(22px, 3vw, 72px);
+    margin: 0;
+    padding: 10px;
+}
+
+.Main_TEXT
+{
+    font-size: clamp(16px, 1.4vw, 28px);
+    margin: 0;
+    padding: 10px;
+}
+
+/* section */
+section
+{
+    width: 80%; /* 80% width of the parent (main) */
+    margin: 0 auto; /* Automatically centers the element horizontally */
+    padding: 20px;   
+}
+
+.Section_HEADER
+{
+    text-align: left;
+    font-size: clamp(20px, 1.8vw, 36px);
+    margin: 0;
+    padding: 10px;
+}
+
+.Section_TITLE
+{
+    text-align: left;
+    font-size: clamp(18px, 1.6vw, 30px);
+    margin: 0;
+    padding: 10px;
+}
+
+.Section_LABLE
+{
+    text-align: center;
+    font-size: clamp(16px, 1.5vw, 28px);
+    margin: auto;
+    padding: 10px;
+}
+
+.Section_SUBLABLE
+{
+    text-align: left;
+    font-size: clamp(14px, 1vw, 24px);
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.Section_TEXT
+{    
+    text-align: left;
+    font-size: clamp(16px, 1vw, 24px);
+    margin: 0;
+    padding: 10px;
+}
+
+.Section_COL
+{
+    margin: auto;
+}
+
+.Section_LIST
+{
+    text-align: left;
+}
+
+.INLINELIST
+{
+    display: flex;
+    margin: 0;            /* Remove default margin */
+    padding: 10px;        /* Remove default padding */
+    list-style: none;     /* Remove default bullets */
+}
+
+.INLINELIST a
+{
+    margin: 0 5px;
+}
+
+.Section_TABLE
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.Table_COL
+{
+    margin-bottom: 20px;
+}
+
+.Table_COL1
+{
+    width: 40%;
+}
+
+.Table_COL1 img
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Table_COL2
+{
+    width: 60%;
+}
+
+.Table_HEADER
+{
+    text-align: left;
+    font-size: clamp(15px, 1.1vw, 26px);
+    margin: 0;
+    padding: 10px;
+}
+
+.Table_SUBHEADER
+{
+    text-align: left;
+    font-size: clamp(14px, 1vw, 24px);
+    margin: 0;
+    padding: 10px;
+}
+
+.Table_TEXT
+{
+    padding: 10px;
+}

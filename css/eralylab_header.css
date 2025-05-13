@@ -1,0 +1,75 @@
+header 
+{
+    text-align: center;
+    background: #500000;
+    color: #fff;
+}
+
+.Header_COL
+{
+    width: 45%; /* 50% of the header width */
+    display: inline-block; /* Makes the divs inline-block */
+}
+
+/* Header_COL1 section */
+#Header_COL1 
+{
+    text-align: left;
+}
+
+#Header_COL1 a
+{   
+    display: inline-flex;
+    align-items: center; /* vertical aligment for flex */
+    text-align: left;
+}
+
+#Header_LOGO
+{
+    width: 8%;
+}
+
+
+#Header_TITLE
+{
+    font-family: helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    font-size: 16px;
+    margin: 0 0 0 25px;
+}
+
+/* Header_COL2 section */
+#Header_NAVIGATION
+{
+    float: right;
+    padding: 10px 10px 0 10px;
+}
+
+ #Header_NAVIGATION ul
+ {
+    margin: 0;            /* Remove default margin */
+    padding: 0;           /* Remove default padding */
+    list-style: none;     /* Remove default bullets */
+ }
+
+
+.TAB 
+{
+    width: auto;
+    font-size: 0.8vw;
+    font-weight: bold; /* Makes text bold */    
+    color: #d1d1d1;
+    display: inline-block; /* Makes the divs inline-block */
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+
+.TAB a 
+{
+    padding-top: 15px;
+}
+
+.TAB a:hover
+{
+    color: white;
+    border-top: 3px solid #ffffff;
+}

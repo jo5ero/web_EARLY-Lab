@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { text: 'Research', href: 'earlylab_Research.html' },
         { text: 'People', href: 'earlylab_People.html' },
         { text: 'Publications', href: 'earlylab_Publications.html' },
-        { text: 'Resources', href: '""' },
+        //{ text: 'Resources', href: '""' },
         { text: 'Contact', href: 'earlylab_Contact.html' }
     ];
 
